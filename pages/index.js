@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../Components/Navbar'
 import { Fade } from 'react-slideshow-image';
@@ -12,31 +11,9 @@ export default function Home() {
   const imgList = [
     "/img1.png", '/img2.png', '/img3.png', '/img4.png', '/img5.png'
   ]
-  function pageName(pathname){
-    if (pathname === '/'){
-      return 'Home | '
-    }
-    else if (pathname === '/contact'){
-      return 'Contact Us | '
-    }
-    else if (pathname === '/about'){
-      return 'About Us | '
-    }
-    else{
-      return ''
-    }
 
-  }
   return (
     <div>
-      <Head>
-        <title>{pageName(router.pathname)}Tosti</title>
-        <meta property="og:title" content="Tosti Cafe" />
-        <meta name="description" content="Come on in and enjoy some delicious food with us!" />
-        <link rel="icon" href="/favicon.png" />
-        <meta property="og:image" content="/tostiExt.png" />
-      </Head>
-
       <div className='flex flex-col h-screen w-screen' >
         <Navbar/>
         <motion.div className='lg:px-[100px] md:px-[60px] px-[30px] h-full flex md:justify-between justify-center items-center md:flex-row flex-col-reverse' initial={{opacity: 0, y: 5}} animate={{opacity: 1, y: 0}} transition={{ ease: "easeIn", duration: 1 }}>
