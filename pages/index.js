@@ -14,13 +14,13 @@ export default function Home() {
   ]
   function pageName(pathname){
     if (pathname === '/'){
-      return 'Home |'
+      return 'Home | '
     }
     else if (pathname === '/contact'){
-      return 'Contact Us |'
+      return 'Contact Us | '
     }
     else if (pathname === '/about'){
-      return '| About Us'
+      return 'About Us | '
     }
     else{
       return ''
