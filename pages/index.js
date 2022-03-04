@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Mask from '../components/Mask'
-import Navbar from '../components/Navbar'
+import Mask from '../Components/Mask'
+import Navbar from '../Components/Navbar'
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import {motion, transform} from "framer-motion"
