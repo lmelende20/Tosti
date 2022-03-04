@@ -10,11 +10,11 @@ function Footer() {
         </div>
         
         <div className='flex md:flex-row flex-col md:text-left text-center '>
-            <div className='lg:pr-[40px] md:pr-[30px] pr-[20px] lg:pb-[0px] pb-[30px] w-[250px]'>
+            <div className='lg:pr-[40px] md:pr-[30px] pr-[0px] lg:pb-[0px] pb-[30px]'>
                 <h1 className='font-Raleway lg:text-[35px] text-[30px] font-bold text-white'>Location</h1>
-                <p className='font-Raleway lg:text-[25px] text-[20px] text-white'>1024 Washington St, Hoboken, NJ 07030</p>
+                <p className='font-Raleway lg:text-[25px] text-[20px] text-white w-[250px]'>1024 Washington St, Hoboken, NJ 07030</p>
             </div>
-            <div className='lg:pr-[40px] md:pr-[30px] pr-[20px] lg:pb-[0px] pb-[30px] w-[250px]'>
+            <div className='lg:pr-[40px] md:pr-[30px] pr-[0px] lg:pb-[0px] pb-[30px]'>
                 <h1 className='font-Raleway lg:text-[35px] text-[30px] font-bold text-white'>Follow Us</h1>
                 <div className='flex justify-around md:ml-[-12px] ml-[0px]'>
                     <motion.button className=' text-white hover:text-lightGreen' onClick={() => window.open("https://m.facebook.com/Tosti-Cafe-238885533643932/", '_blank')} whileHover={{scale: 1.2}}>
