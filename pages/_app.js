@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
     <div className='bg-white overflow-x-hidden min-h-screen flex flex-col'>
       <Head>
         <title>{pageName(router.pathname)}Tosti</title>
-        <meta property="og:title" content="Tosti Cafe" />
+        <meta property="og:title" content="Tosti Cafe & Kitchen" />
         <meta name="description" content="Come on in and enjoy some delicious food with us!" />
         <link rel="icon" href="/favicon.png" />
         <meta property="og:image" content="/tostiExt.png" />
