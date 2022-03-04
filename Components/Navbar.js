@@ -39,7 +39,7 @@ function Navbar() {
                 <Image src="/menu.svg" alt="menu" width={30} height={30}/>
             </button>
                 
-            <div className={`flex flex-col md:pt-[300px] pt-[30vh] h-screen w-screen bg-green fixed top-0 left-0 z-[100] transition-transform overflow-x-hidden duration-500 ${isOpen ? "translate-x-full" : ""}`}>
+            <div className={`flex flex-col md:pt-[300px] pt-[27vh] h-screen w-screen bg-green fixed top-0 left-0 z-[100] transition-transform overflow-x-hidden duration-500 ${isOpen ? "translate-x-full" : ""}`}>
                 <div className='flex justify-between items-center'>
                     <div className='absolute top-0 right-left sm:m-[70px] m-5'>
                         <button onClick={() => onClick2("/")}>
