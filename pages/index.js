@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Mask from '../Components/Mask'
 import Navbar from '../Components/Navbar'
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import {motion, transform} from "framer-motion"
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter();
   const imgList = [
     "/img1.png", '/img2.png', '/img3.png', '/img4.png', '/img5.png'
   ]
