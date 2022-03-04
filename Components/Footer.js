@@ -37,7 +37,7 @@ function Footer() {
             </div>
             <div>
                 <h1 className='font-Raleway lg:text-[35px] text-[30px] font-bold text-white '>Contact Us</h1>
-                <p className='font-Raleway lg:text-[25px] text-[20px] text-white w-[225px]'>Tel (201) 683-7060</p>
+                <p className='font-Raleway lg:text-[25px] text-[20px] text-white'>Tel (201) 683-7060</p>
             </div>
 
         </div>
