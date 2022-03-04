@@ -1,7 +1,22 @@
 import '../styles/globals.css'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import { useRouter } from 'next/router'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const router = useRouter();
+  return (
+    <div className='bg-white overflow-x-hidden min-h-screen flex flex-col'>
+      
+      {router.pathname==="/" ? <></> : <Navbar/>}
+      <Component {...pageProps} />
+      <div className="mt-auto h-full">
+        <Footer/>
+      </div>
+      
+    </div>
+  )
+  
 }
 
 export default MyApp
