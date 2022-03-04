@@ -27,13 +27,12 @@ export default function Home() {
             </motion.button>
           </motion.div>
             
-            <div className="slide-container lg:w-[450px] md:w-[350px] w-[225px]">
+            <div className="slide-container lg:w-[450px] md:w-[350px] w-[270px]">
               <Fade arrows={false} duration={1500}>
                 {imgList.map((img, index) => (
                   <div className="each-fade" key={index}>
                     <div className="image-container">
                       <Image src={img} alt={index} width={600} height={405}/>
-                      {/* <img src={img} /> */}
                     </div>
                     
                   </div>
