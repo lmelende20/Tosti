@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Mask from '../Components/Mask'
-import Navbar from '../Components/Navbar'
+import Mask from '../components/Mask'
+import Navbar from '../components/Navbar'
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import {motion, transform} from "framer-motion"
@@ -10,11 +10,6 @@ import {motion, transform} from "framer-motion"
 export default function Home() {
   const imgList = [
     "/img1.png", '/img2.png', '/img3.png', '/img4.png', '/img5.png'
-    // <Image id="cf4FadeInOut" src='/img1.png' alt='/img1.png' width={600} height={405} />,
-    // <Image id="cf4FadeInOut" src='/img2.png' alt='/img2.png' width={600} height={405} />,
-    // <Image id="cf4FadeInOut" src='/img3.png' alt='/img3.png' width={600} height={405} />,
-    // <Image id="cf4FadeInOut" src='/img4.png' alt='/img4.png' width={600} height={405} />,
-    // <Image id="cf4FadeInOut" src='/img5.png' alt='/img5.png' width={600} height={405} />
   ]
   const fadeImages = [
     "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
