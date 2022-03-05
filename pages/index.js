@@ -51,7 +51,7 @@ export default function Home() {
         <h1 className='lg:text-[50px] md:text-[40px] text-[30px] font-Raleway font-bold md:pb-[25px] pb-[15px] text-center'>Real Customer Reviews From Yelp</h1>
         <div className='flex md:flex-row flex-col items-center md:justify-evenly pt-[50px]'>
           <div className='md:text-left text-center'>
-            <p className='font-Raleway lg:text-[30px] md:text-[25px] text-[20px] lg:w-[200px] md:w-[175px] w-[250px]'>“My main regret about Tosti is that I didn&apost make it here sooner.”</p>
+            <p className='font-Raleway lg:text-[30px] md:text-[25px] text-[20px] lg:w-[200px] md:w-[175px] w-[250px]'>“My main regret about Tosti is that I didn&apos;t make it here sooner.”</p>
             <p className='font-Raleway text-[20px] italic lg:text-[30px] md:text-[25px] text-[20px] md:pt-[0px] md:pb-[0px] pt-[20px] pb-[50px]'>- Michael B.</p>
           </div>
 
